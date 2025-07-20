@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mobile-frame {
+  width: 375px;
+  height: 700px;
+  background-color: #FDF7E4;
+  border: 12px solid #000;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-bar {
+  height: 30px;
+  width: 100%;
+  background-color: #FDBE10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 30px;
+  width: 100px;
+  height: auto;
+}
+
+.app-name {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #444;
+  font-family: 'Comic Sans MS', cursive;
+  line-height: 1.4;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 2px solid #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background-color: transparent;
+}
+
+.btn.login {
+  color: #FDBE10;
+  font-weight: bold;
+}
+
+.btn.login:hover {
+  background-color: rgba(253, 190, 16, 0.1);
+}
+
+.btn.signup {
+  color: #FDBE10;
+  font-weight: bold;
+}
+
+.btn.signup:hover {
+  background-color: rgba(253, 190, 16, 0.1);
+}
