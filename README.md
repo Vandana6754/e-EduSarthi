@@ -44,6 +44,8 @@ institutions and students using a user-friendly digital interface.
 # Contributors
 - Anamika Singh – Done
 
-  
+#Here is the demo video of the App
+
+https://github.com/user-attachments/assets/d1f002c2-f7dc-4906-b07d-a5da7cb62b7f
 
 
